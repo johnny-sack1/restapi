@@ -1,0 +1,16 @@
+<web-app
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+        id="Your_WebApp_ID"
+        version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Customers</servlet-name>
+    <servlet-class>CustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customers</servlet-name>
+    <url-pattern>/customers/*</url-pattern>
+  </servlet-mapping>
+</web-app>

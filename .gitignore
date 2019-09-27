@@ -1,0 +1,6 @@
+.idea/
+target/
+*.iml
+*.ddl
+*.jsp
+src/main/resources/*
